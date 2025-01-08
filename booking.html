@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Booking Page</title>
+    <!-- google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+</head>
+
+<body>
+
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:55px;" />
+                </a>
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="booking.html">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+    <section class="inner-banner py-5">
+        <div class="w3l-breadcrumb py-lg-5">
+            <div class="container pt-sm-5 pt-4 pb-sm-4">
+                <h4 class="inner-text-title font-weight-bold pt-5">Contact Us</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Section -->
+    <section class="w3l-booking py-5" id="booking">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="title-heading-w3 text-center mx-auto mb-sm-5 mb-4" style="max-width:700px">
+                <h3 class="title-style">Book Your Service</h3>
+                <p class="lead mt-2">Select from our premium services and make your events unforgettable.</p>
+            </div>
+
+            <div class="booking-form mx-auto" style="max-width:800px">
+                <form action="#" method="post" class="signin-form">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="input-grids">
+                                <input type="text" name="name" id="name" placeholder="Your Name*" class="contact-input"style="
+                                background: #fffefe;
+                                /* height: 40px; */
+                                with: 50%;
+                                width: 100%;
+                                /* border: 1px; */
+                                border-radius: 5px;
+                                color: #060606;
+                                border: 1px solid;
+                                padding: 14px;
+                                margin-bottom: 16px;
+                            "
+                                    required />
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="input-grids">
+                                <input type="email" name="email" id="email" placeholder="Your Email*" class="contact-input"style="
+                                background: #fffefe;
+                                /* height: 40px; */
+                                with: 50%;
+                                width: 100%;
+                                /* border: 1px; */
+                                border-radius: 5px;
+                                color: #060606;
+                                border: 1px solid;
+                                padding: 14px;
+                                margin-bottom: 16px;
+                            "
+                                    required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="input-grids">
+                                <input type="text" name="phone" id="phone" placeholder="Phone Number*" class="contact-input"style="
+                                background: #fffefe;
+                                /* height: 40px; */
+                                with: 50%;
+                                width: 100%;
+                                /* border: 1px; */
+                                border-radius: 5px;
+                                color: #060606;
+                                border: 1px solid;
+                                padding: 14px;
+                                margin-bottom: 16px;
+                            "
+                                    required />
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="input-grids">
+                                <select name="service" id="service" class="contact-input" style="
+                                background: #fffefe;
+                                /* height: 40px; */
+                                with: 50%;
+                                width: 100%;
+                                /* border: 1px; */
+                                border-radius: 5px;
+                                color: #060606;
+                                border: 1px solid;
+                                padding: 14px;
+                                margin-bottom: 16px;
+                            " required>
+                                    <option value="" disabled selected>Select a Service*</option>
+                                    <option value="wedding-plans">Wedding Plans & Styling</option>
+                                    <option value="event-planning">Event Planning</option>
+                                    <option value="entertainment">Entertainment Options</option>
+                                    <option value="photography">Professional Photography Services</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-input mt-4" style="
+                    background: #fffefe;
+                    /* height: 40px; */
+                    with: 50%;
+                    width: 100%;
+                    /* border: 1px; */
+                    border-radius: 5px;
+                    color: #060606;
+                    border: 1px solid;
+                    padding: 14px;
+                    margin-bottom: 16px;
+                ">
+                        <textarea name="message" id="message" placeholder="Additional Information (optional)" class="contact-input" style="
+                        width: 100%;
+                        border: 0;
+                    "
+                        ></textarea>
+                    </div>
+
+                    <div class="text-center mt-4" >
+                        <button class="btn btn-style btn-style-primary">Submit Booking</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- //Booking Section -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29-w3l py-5">
+            <div class="container pt-md-5 pt-4">
+                <div class="w3l-footer-text-style">
+                    <div class="footer-list-cont d-flex align-items-center justify-content-between mb-5">
+                        <h6 class="foot-sub-title">Contact Us</h6>
+                        <div class="main-social-footer-29">
+                            <a href="#facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#twitter" class="twitter"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="#instagram" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#linkedin" class="linkedin"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-top-29 pt-lg-5 pt-sm-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="address-grid">
+                            <h5>Anoop avanue, po, Vellanad, Thiruvananthapuram, Kerala 695543.</h5>
+                            <h5 class="mt-sm-5 mt-4">Everyday: <span> 7 AM - 8 PM</span></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
+                        <div class="address-grid">
+                            <h5>Phone</h5>
+                            <h5 class="phone-number-text mt-2"><a href="tel:08921775320">08921775320</a></h5>
+                        </div>
+                        <div class="address-grid mt-sm-5 mt-4">
+                            <h5>E-mail</h5>
+                            <h5 class="email-cont-text mt-1"> <a href="/cdn-cgi/l/email-protection#5c2c343328333b3932353f1c313d3530723f3331" class="mail"><span class="__cf_email__" data-cfemail="0b7b63647f646c6e6562684b666a626725686466">bizcomtvm@gmail.com</span></a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-5 footer-list-menu pl-lg-0 mt-lg-0 mt-sm-5 mt-4">
+                        <div class="address-grid">
+                            <h5 class="mb-4 pb-lg-2">Support Links</h5>
+                            <ul>
+                                <li><a href="#privacy">Privacy Policy</a></li>
+                                <li><a href="#terms"> Terms of Service</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="#support"> Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="address-grid col-lg-4 col-md-6 col-sm-7 mt-lg-0 mt-sm-5 mt-4 w3l-footer-16-main">
+                        <h5>Subscribe Here</h5>
+                        <form action="#" class="subscribe d-flex mt-4 pt-lg-2 mb-4" method="post">
+                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                        </form>
+                        <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <div class="w3l-copyright text-center mt-lg-5 mt-sm-4 pt-md-4 pt-3">
+                    <p class="copy-footer-29">© 2025 BIZCOM Events & Weddings. Design by <a
+                            href="https://abhinanthpy.github.io/asteroid/index.html?fbclid=PAZXh0bgNhZW0CMTEAAaZkKsgxwOeCPoZy1wqO4k0xISb5Q0SwZ9Cc4crdHjApUeyN8_MMP2qBv8c_aem_0je17ZIi_HTzxsex8LrlQA" target="_blank">
+                            Asteroid</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Js scripts -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
